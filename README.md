@@ -56,14 +56,14 @@ Modified selected latent features and injected reconstructed activations back in
 
 ## Project Structure
 
-├── Automated_Feature_Extraction.ipynb
-├── sae_model.py
-├── steering.py
-├── prompts.json
-├── feature_analysis.json
-├── comparison_results.json
-├── requirements.txt
-└── .gitignore
+├── Automated_Feature_Extraction.ipynb   # Main notebook
+├── sae_model.py                         # Sparse Autoencoder implementation
+├── steering.py                          # Feature steering experiments
+├── prompts.json                         # Generated prompts
+├── feature_analysis.json                # Feature analysis results
+├── comparison_results.json              # Experiment outputs
+├── requirements.txt                     # Dependencies
+└── .gitignore                           # Ignored files
 
 ---
 
@@ -119,7 +119,3 @@ Keeping them outside the repository:
 - Extend to mechanistic interpretability research
 
 ---
-
-## Author
-
-Lakshna Tarunya Y
