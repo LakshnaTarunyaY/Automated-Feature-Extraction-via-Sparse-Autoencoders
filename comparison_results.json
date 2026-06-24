@@ -1,0 +1,37 @@
+[
+    {
+        "category": "Reasoning",
+        "feature_id": 5234,
+        "prompt": "Discuss whether artificial intelligence should have legal rights. Provide arguments for and against.",
+        "baseline": "Discuss whether artificial intelligence should have legal rights. Provide arguments for and against.",
+        "steered": "Discuss whether artificial intelligence should have legal rights. Provide arguments for and against."
+    },
+    {
+        "category": "History",
+        "feature_id": 6901,
+        "prompt": "Explain the major political, economic, and military reasons behind the fall of the Roman Empire.",
+        "baseline": "Explain the major political, economic, and military reasons behind the fall of the Roman Empire.",
+        "steered": "Explain the major political, economic, and military reasons behind the fall of the Roman Empire."
+    },
+    {
+        "category": "Science",
+        "feature_id": 7307,
+        "prompt": "Explain in detail how vaccines work and how they help the immune system fight diseases.",
+        "baseline": "Explain in detail how vaccines work and how they help the immune system fight diseases.",
+        "steered": "Explain in detail how vaccines work and how they help the immune system fight diseases."
+    },
+    {
+        "category": "Coding",
+        "feature_id": 3707,
+        "prompt": "Write a quicksort implementation in Python.",
+        "baseline": "Write a quicksort implementation in Python. The program should prompt the user to enter an array of integers and then sort it using quicksort. The program should also display the sorted array. Make sure to include comments and use appropriate variable names and formatting.",
+        "steered": "Write a quicksort implementation in Python. Your implementation should use the merge sort algorithm to divide the input array into smaller subarrays, and then recursively apply quicksort to each subarray. Your code should be well-documented and follow PEP 8 style guidelines. Additionally, your implementation should handle edge cases such as empty arrays and arrays with only one element."
+    },
+    {
+        "category": "Math",
+        "feature_id": 5290,
+        "prompt": "Explain the Pythagorean theorem.",
+        "baseline": "Explain the Pythagorean theorem.",
+        "steered": "Explain the Pythagorean theorem."
+    }
+]
